@@ -52,7 +52,7 @@ const Product = ({ product }) => {
               fontWeight: "800",
             }}
           >
-            Rs.{product.price}
+            £{product.price}
           </Card.Text>
         </Card.Body>
       </div>

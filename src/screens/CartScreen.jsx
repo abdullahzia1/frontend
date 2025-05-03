@@ -184,7 +184,7 @@ const CartScreen = () => {
                                 color: "#000000",
                               }}
                             >
-                              Rs. {item.price}
+                              £ {item.price}
                             </h3>
                           </div>
 
@@ -278,7 +278,7 @@ const CartScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {cartItems
+                      £ {cartItems
                         .reduce((acc, item) => acc + item.qty * item.price, 0)
                         .toFixed(2)}
                     </h3>
@@ -308,7 +308,7 @@ const CartScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. 0
+                      £ 0
                     </h3>
                   </div>
                   <div
@@ -335,7 +335,7 @@ const CartScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. 0
+                      £ 0
                     </h3>
                   </div>
                 </ListGroup.Item>
@@ -364,7 +364,7 @@ const CartScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {cartItems
+                      £ {cartItems
                         .reduce((acc, item) => acc + item.qty * item.price, 0)
                         .toFixed(2)}
                     </h3>

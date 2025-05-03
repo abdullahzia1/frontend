@@ -331,7 +331,7 @@ const OrderScreen = () => {
                                     color: "rgb(0 0 0 / 60%)",
                                   }}
                                 >
-                                  {item.qty} x Rs. {item.price} = Rs. {(item.qty * (item.price * 100)) / 100}
+                                  {item.qty} x £ {item.price} = £ {(item.qty * (item.price * 100)) / 100}
                                 </h3>
                               </div>
                             </Col>
@@ -384,7 +384,7 @@ const OrderScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {order.itemsPrice}
+                      £ {order.itemsPrice}
                     </h3>
                   </div>
 
@@ -412,7 +412,7 @@ const OrderScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {order.shippingPrice}
+                      £ {order.shippingPrice}
                     </h3>
                   </div>
 
@@ -440,7 +440,7 @@ const OrderScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {order.taxPrice}
+                      £ {order.taxPrice}
                     </h3>
                   </div>
                 </ListGroup.Item>
@@ -469,7 +469,7 @@ const OrderScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {order.totalPrice}
+                      £ {order.totalPrice}
                     </h3>
                   </div>
                 </ListGroup.Item>

@@ -131,7 +131,7 @@ const ProductScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs.{product.price}
+                      £{product.price}
                     </p>
 
                     <p

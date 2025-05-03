@@ -225,8 +225,8 @@ const PlaceOrderScreen = () => {
                                     color: "rgb(0 0 0 / 60%)",
                                   }}
                                 >
-                                  {item.qty} x Rs. {item.price} = 
-                                  Rs. {(item.qty * (item.price * 100)) / 100}
+                                  {item.qty} x £ {item.price} = 
+                                  £ {(item.qty * (item.price * 100)) / 100}
                                 </h3>
                               </div>
                             </Col>
@@ -280,7 +280,7 @@ const PlaceOrderScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {cart.itemsPrice}
+                      £ {cart.itemsPrice}
                     </h3>
                   </div>
 
@@ -308,7 +308,7 @@ const PlaceOrderScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {cart.shippingPrice}
+                      £ {cart.shippingPrice}
                     </h3>
                   </div>
 
@@ -336,7 +336,7 @@ const PlaceOrderScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {cart.taxPrice}
+                      £ {cart.taxPrice}
                     </h3>
                   </div>
                 </ListGroup.Item>
@@ -365,7 +365,7 @@ const PlaceOrderScreen = () => {
                         color: "#000000",
                       }}
                     >
-                      Rs. {cart.totalPrice}
+                      £ {cart.totalPrice}
                     </h3>
 
                     {error && (
