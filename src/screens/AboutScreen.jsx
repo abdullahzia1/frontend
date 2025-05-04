@@ -36,9 +36,9 @@ const AboutScreen = () => {
                     color: "#0000009c",
                   }}
                 >
-                  Welcome to <strong>Cheez Baich</strong> , your ultimate
+                  Welcome to <strong>Treasurelane Market</strong> , your ultimate
                   destination for affordable electronics online. At{" "}
-                  <strong>Cheez Baich</strong> , we believe that everyone
+                  <strong>Treasurelane Market</strong> , we believe that everyone
                   deserves access to high-quality electronics without breaking
                   the bank. That's why we've curated a wide range of gadgets,
                   devices, and accessories at prices that won't leave a dent in
@@ -46,7 +46,7 @@ const AboutScreen = () => {
                   customer satisfaction, we strive to bring you the latest and
                   greatest electronic products from leading brands. Whether
                   you're in need of a new smartphone, laptop, gaming console, or
-                  any other electronic gadget, <strong>Cheez Baich</strong> has
+                  any other electronic gadget, <strong>Treasurelane Market</strong> has
                   got you covered. Our mission is simple: to provide our
                   customers with a seamless shopping experience, unbeatable
                   prices, and top-notch customer service. We're constantly
@@ -54,7 +54,7 @@ const AboutScreen = () => {
                   market, so you can shop with confidence knowing that you're
                   getting the best value for your money. So why wait? Explore
                   our collection of electronics today and discover why{" "}
-                  <strong>Cheez Baich</strong> is the go-to destination for
+                  <strong>Treasurelane Market</strong> is the go-to destination for
                   affordable tech essentials. Happy shopping!
                 </p>
               </Accordion.Body>
@@ -78,7 +78,7 @@ const AboutScreen = () => {
                   }}
                 >
                     <ul>
-                        <li><strong>Email:</strong>  CheezBaich@shop.com</li>
+                        <li><strong>Email:</strong>  treasurelane-market@shop.com</li>
                         <li><strong>Contact Number:</strong>  03333300300</li>
                     </ul>
                   

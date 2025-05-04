@@ -119,7 +119,7 @@ const HelpScreen = () => {
                   <ul>
                     <li>
                       {" "}
-                      At Cheez Baich, we take pride in providing exceptional
+                      At Treasurelane Market, we take pride in providing exceptional
                       customer care to ensure your shopping experience is smooth
                       and satisfying. Our dedicated customer care team is here
                       to assist you with any questions, concerns, or issues you
@@ -141,7 +141,7 @@ const HelpScreen = () => {
                     <li>
                       Your satisfaction is our priority, and we're committed to
                       going above and beyond to ensure you have a positive
-                      shopping experience with Cheez Baich. So don't hesitate to
+                      shopping experience with Treasurelane Market. So don't hesitate to
                       reach out to our customer care team whenever you need
                       assistance—we're here to help!
                     </li>

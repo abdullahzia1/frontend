@@ -120,7 +120,7 @@ const Footer = () => {
           {/* Logo */}
           <Col lg={6} md={6} sm={3} xs={6}>
             <Link to="/" style={{ textDecoration: "none" }}>
-              <img src={logo} alt="CheezBaich" style={{ width: "60px" }} />
+              <img src={logo} alt="treasurelane-market" style={{ width: "60px" }} />
               <h1
                 style={{
                   fontSize: "30px",
@@ -129,7 +129,7 @@ const Footer = () => {
                   margin: "10px 0px",
                 }}
               >
-                CHEEZ BAICH
+                Treasurelane Market
               </h1>
             </Link>
           </Col>

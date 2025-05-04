@@ -42,8 +42,8 @@ const Header = () => {
           {/* Brand/logo with link to home */}
           <LinkContainer to='/' style={{  }}>
             <Navbar.Brand  > 
-              <img src={logo} alt='CheezBaich' style={{ width: '60px' }}/>
-              {/* <p style={{ fontSize: "13px", fontWeight: '800'}}>CHEEZ BAICH</p>  */}
+              <img src={logo} alt='treasurelane-market' style={{ width: '60px' }}/>
+              {/* <p style={{ fontSize: "13px", fontWeight: '800'}}>Treasurelane Market</p>  */}
             </Navbar.Brand>
           </LinkContainer>
           
