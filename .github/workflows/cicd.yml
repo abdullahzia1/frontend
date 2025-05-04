@@ -16,7 +16,7 @@ jobs:
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker Image
-        run: docker build -t abdullahzia1/frontend --build-arg NODE_ENV='production' --build-arg SERVER_URL=${{ secrets.SERVER_URL }} .
+        run: docker build -t abdullahzia1/frontend --build-arg NODE_ENV=${{secrets.NODE_ENV}} --build-arg SERVER_URL=${{ secrets.SERVER_URL }} .
 
       - name: Publish Image to Docker Hub
         run: docker push abdullahzia1/frontend:latest
