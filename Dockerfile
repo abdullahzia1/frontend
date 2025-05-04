@@ -5,6 +5,9 @@ WORKDIR /app
 ARG SERVER_URL
 ARG NODE_ENV
 
+ENV SERVER_URL=$SERVER_URL
+ENV NODE_ENV=$NODE_ENV
+
 COPY package.json .  
 RUN npm install
 
