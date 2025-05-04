@@ -2,6 +2,9 @@ FROM node:18-alpine as build
 
 WORKDIR /app
 
+ARG SERVER_URL
+ARG NODE_ENV
+
 COPY package.json .  
 RUN npm install
 

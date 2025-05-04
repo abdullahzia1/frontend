@@ -14,10 +14,12 @@ const App = () => {
 
   useEffect(() => {
     const expirationTime = localStorage.getItem('expirationTime');
+    console.log('LOGGING OUT ', expirationTime)
     if (expirationTime) {
       const currentTime = new Date().getTime();
 
       if (currentTime > expirationTime) {
+        console.log('LOGGED OUT ', currentTime > expirationTime)
         dispatch(logout());
       }
     }
